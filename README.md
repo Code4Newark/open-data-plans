@@ -1,5 +1,5 @@
 # open-data-plans
-Drafting plans to work with the City of Newark's open data sets
+
 ![City of Newark logo](http://www.ci.newark.nj.us/wp-content/uploads/2014/08/logo_CityNewark_600px.png)
 
 The City of Newark open data portal has an some interesting datasets we might work with and create some kind of spatial/map visualization. The datasets range across infrastructure, government, demographics, business, education and public safety but here are some datasets I found more interesting.
