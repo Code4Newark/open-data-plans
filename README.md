@@ -8,7 +8,7 @@ The City of Newark open data portal has an some interesting datasets we might wo
   - Contains latitute and longitude data.
   - Former owner's (individual/corporation) name.
 - [Wards](http://data.ci.newark.nj.us/dataset/wards)
-  - This is shapefile that we can use to generate the actual map of Newark in the browser.
+  - This is a shapefile that we can use to generate the actual map of Newark on a webpage.
 - [Health Inspections](http://data.ci.newark.nj.us/dataset/health-inspections)
   - Contains latitute and longitude data.
   - Grade and date inspected.
