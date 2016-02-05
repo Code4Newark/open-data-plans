@@ -20,3 +20,5 @@ This open data project could definetly bring some synergy to the voting app proj
 ## Implementation
 
 We can use [D3.js](https://github.com/mbostock/d3) and [Node.js](https://github.com/nodejs/node) to handle most if not all parts of this project, from rendering the map of Newark in-browser to parsing the raw datasets (usually in csv form).
+
+A homogenous JavaScript stack will also be an opportunity to involve the beginning Saturday JavaScript learners.
