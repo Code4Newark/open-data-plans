@@ -16,3 +16,7 @@ The City of Newark open data portal has an some interesting datasets we might wo
 There is also data on [NHA Project Housing](http://data.ci.newark.nj.us/dataset/nha-projects), the [Valentine's Day Property Sale](http://data.ci.newark.nj.us/dataset/valentine-s-day-property-sale), [Newark Census](http://data.ci.newark.nj.us/dataset/newark-census-block-group-polygon) and distribution of [Taxes Paid](http://data.ci.newark.nj.us/dataset/taxes-paid-2014), all interesting stuff with potentially even more interesting insights in an overlapping visualization.
 
 This open data project could definetly bring some synergy to the voting app project that we are thinking of starting. Essentially, trying to inform voters with these visualizations before they go to the polls.
+
+## Implementation
+
+We can use [D3.js](https://github.com/mbostock/d3) and [Node.js](https://github.com/nodejs/node) to handle most if not all parts of this project, from rendering the map of Newark in-browser to parsing the raw datasets (usually in csv form).
