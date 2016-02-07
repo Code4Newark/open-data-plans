@@ -26,6 +26,7 @@ A homogenous JavaScript stack will also be an opportunity to involve the beginni
 Development roadmap
 ---
 1. Render geoJSON map of Newark, NJ in the browser
-2. Parse datasets (e.g. abandon homes, health inspections, etc) for coordinate data
+2. ~~Parse datasets (e.g. abandon homes, health inspections, etc) for coordinate data~~
+  - We actually don't need to parse if we use Newark's CKAN-based API. We can return a JSON of at the moment results. Hopefully their API can take all those requests.
 3. Plot coordinate data on map. Give users options of specificing which data they want to see.
 4. Do all this in an object-oriented fashion so that when Newark open data people release new datasets, adding them to our visualization is trivial.
