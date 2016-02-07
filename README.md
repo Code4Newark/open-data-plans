@@ -22,3 +22,10 @@ This open data project could definetly bring some synergy to the voting app proj
 We can use [D3.js](https://github.com/mbostock/d3) and [Node.js](https://github.com/nodejs/node) to handle most if not all parts of this project, from rendering the map of Newark in-browser to parsing the raw datasets (usually in csv form).
 
 A homogenous JavaScript stack will also be an opportunity to involve the beginning Saturday JavaScript learners.
+
+Development roadmap
+---
+1. Turn geoJSON map of Newark, NJ in the browser
+2. Parse datasets (e.g. abandon homes, health inspections, etc) for coordinate data
+3. Plot coordinate data on map. Give users options of specificing which data they want to see.
+4. Do in an object-oriented fashion so that when Newark open data people release new datasets, adding them to our visualization is trivial.
