@@ -25,7 +25,7 @@ A homogenous JavaScript stack will also be an opportunity to involve the beginni
 
 Development roadmap
 ---
-1. Turn geoJSON map of Newark, NJ in the browser
+1. Render geoJSON map of Newark, NJ in the browser
 2. Parse datasets (e.g. abandon homes, health inspections, etc) for coordinate data
 3. Plot coordinate data on map. Give users options of specificing which data they want to see.
-4. Do in an object-oriented fashion so that when Newark open data people release new datasets, adding them to our visualization is trivial.
+4. Do all this in an object-oriented fashion so that when Newark open data people release new datasets, adding them to our visualization is trivial.
