@@ -27,6 +27,6 @@ Development roadmap
 ---
 1. Render geoJSON map of Newark, NJ in the browser
 2. ~~Parse datasets (e.g. abandon homes, health inspections, etc) for coordinate data~~
-  - We actually don't need to parse if we use Newark's CKAN-based API. We can return a JSON of at the moment results. Hopefully their API can take all those requests.
-3. Plot coordinate data on map. Give users options of specificing which data they want to see.
+  - We actually don't need to parse if we use Newark's [CKAN-based API[(http://data.ci.newark.nj.us/sl/api/1/util/snippet/api_info.html?resource_id=97626fdf-9d73-48da-8090-3c734a6d79d8&datastore_root_url=http%3A%2F%2Fdata.ci.newark.nj.us%2Fapi%2Faction). We can return a JSON version of the csv at the moment of the request (think live updating!).
+3. Plot coordinate data on map. Give users option of specificing which data they want to see.
 4. Do all this in an object-oriented fashion so that when Newark open data people release new datasets, adding them to our visualization is trivial.
