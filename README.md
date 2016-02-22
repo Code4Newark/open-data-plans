@@ -25,6 +25,8 @@ A homogenous JavaScript stack will also be an opportunity to involve the beginni
 
 Development roadmap
 ---
+Precondition: Facilitate general Git, GitHub React and D3 workshop to brief people on project and how to contribute via GitHub.
+
 1. Render geoJSON map of Newark, NJ in the browser
 2. ~~Parse datasets (e.g. abandon homes, health inspections, etc) for coordinate data~~
   - We actually don't need to parse if we use Newark's [CKAN-based API](http://data.ci.newark.nj.us/sl/api/1/util/snippet/api_info.html?resource_id=97626fdf-9d73-48da-8090-3c734a6d79d8&datastore_root_url=http%3A%2F%2Fdata.ci.newark.nj.us%2Fapi%2Faction). We can return a JSON version of the csv at the moment of the request (think live updating!).
